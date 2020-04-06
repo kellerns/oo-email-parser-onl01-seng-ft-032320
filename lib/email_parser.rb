@@ -11,7 +11,7 @@ class EmailAddressParser
   
   def parse
     new_parse = emails.split(/[\,\ ]/)
-    new_parse.
+    new_parse.delete("")
   end
   
   
